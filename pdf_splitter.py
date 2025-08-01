@@ -59,7 +59,6 @@ def split_pdf_files(folder_path, file_path_array):
         except Exception as e:
             print(f"An error occured during PDF splitting: {e}")
 
-
 def main():
 
     pdf_file_path_array = []
@@ -67,12 +66,6 @@ def main():
 
     if pdf_file_path_array:
         split_pdf_files(scan_folder_path, pdf_file_path_array)
-
-
-    
-    
-
-
 
 if __name__ == "__main__":
     main()
